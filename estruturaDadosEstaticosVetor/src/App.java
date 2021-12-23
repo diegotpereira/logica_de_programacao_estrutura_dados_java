@@ -3,6 +3,10 @@ import javax.swing.JOptionPane;
 public class App {
     public static void main(String[] args) throws Exception {
 
+        // O programa a seguir faz a leitura de 10 valores 
+        // em um vetor e apresenta o valor da média
+        // aritmética desses valores.
+
         try {
             
             float vetor[] = new float[10];

@@ -2,6 +2,15 @@ import javax.swing.JOptionPane;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
+        // O objetivo deste exemplo é desenvolver um algoritmo 
+        // que efetue a leitura de 10 elementos inteiros de 
+        // um vetor Teste1 e construir um vetor Teste2 do mesmo 
+        // tipo, observando a seguinte regra de formação: se o 
+        // valor do índice for par, o valor do elemento
+        // deverá ser multiplicado por 5; se for ímpar, deverá 
+        // ser somado com 5. Ao fi nal, mostrar
+        // o conteúdo dos dois vetores.
         int teste1[] = new int[10];
         int teste2[] = new int[10];
 
